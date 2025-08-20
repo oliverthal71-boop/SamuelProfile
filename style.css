@@ -1,0 +1,86 @@
+/* Allgemeines Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../Pictures/AnimeCitySunset.jpg");
+  background-size: cover;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.profile-card {
+  background-color: rgba(50, 0, 50, 0.8);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 30%;
+  object-fit:fill;
+  border: 3px solid #fff;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.socials {
+  margin: 20px 0;
+}
+
+.socials a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+}
+
+.kontakt-btn {
+  background-color: #7b1fa2;
+  border: none;
+  padding: 12px 25px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.kontakt-btn:hover {
+  background-color: #9c27b0;
+  transform: scale(1.05);
+}
